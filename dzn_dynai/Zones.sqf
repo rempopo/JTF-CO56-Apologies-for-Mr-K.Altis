@@ -1,6 +1,13 @@
 
 /* *********** This array defines detailed properties of zones ************************** */
 // MAIN BASE
+/*
+Dynai zones:
+
+MainTown
+ForwardPatrol
+HillsPatrol
+*/
 
 [
     "Zone", /* Zone Name */

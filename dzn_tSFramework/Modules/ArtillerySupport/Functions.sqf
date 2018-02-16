@@ -36,6 +36,7 @@ tSF_fnc_ArtillerySupport_processLogics = {
 			{
 				private _roundType = _x;
 				private _type = tSF_ArtillerySupport_FiremissionsProperties select { _roundType in (_x select 2) }; // [ [ @DisplayName, @NumberAvailable, @ListfRounds ] ]
+				
 				if !(_type isEqualTo []) then {
 					_firemissionsList pushBack [
 						(_type select 0) select 0
