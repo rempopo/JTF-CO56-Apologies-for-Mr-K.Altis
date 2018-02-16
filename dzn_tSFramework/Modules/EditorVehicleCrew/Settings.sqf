@@ -26,7 +26,7 @@ tSF_EVC_initTimeout	=	20;
 #define	CREW_CONFIG_TABLE		tSF_EVC_CrewConfig = [
 #define	CREW_CONFIG_TABLE_END		];
 
-tSF_EVC_OPFOR_CrewSkill		= 0.85;
+tSF_EVC_OPFOR_CrewSkill		= 0.95;
 tSF_EVC_OPFOR_CrewKit		= "kit_ins_r";
 tSF_EVC_OPFOR_HoldType		= "full frontal";
  

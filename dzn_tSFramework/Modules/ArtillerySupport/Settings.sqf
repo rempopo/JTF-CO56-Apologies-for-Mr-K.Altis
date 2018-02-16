@@ -12,12 +12,9 @@
  */
 tSF_ArtillerySupport_AuthorizedUsers = [
 	"Admin"
-	,"Platoon Leader"
-	,"Platoon Sergeant"
-	,"Командир взвода"
+	,"Офицер поддержки"
 	,"Зам. командира взвода"
-	,"FO"
-	,"КАО"
+	,"Ифрис 1'6 Командир взвода"
 ];
 
 

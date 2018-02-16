@@ -48,5 +48,20 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
  */
 
 // Код условия может быть строкой или кодом в { }
-MissionCondition1 = [ "WIN", "false", "All objectives done" ];
-MissionCondition2 = [ "WIPED", { call fnc_isAllDead }, "All dead", 30 ];
+MissionCondition1 = [ "WIN", { 
+	alive hostage1 && hostage1 inArea hostageRescueArea 
+	&& alive hostage2 && hostage2 inArea hostageRescueArea 
+}, "2 hostages evacuated" ];
+
+MissionCondition2 = [ "WIN", {
+	( alive hostage1 && hostage1 inArea hostageRescueArea && !alive hostage2 )
+	|| ( alive hostage2 && hostage2 inArea hostageRescueArea && !alive hostage1 )
+}, "1 evacuated, 1 dead" ];
+
+MissionCondition3 = [ "WIN2", {
+	( !alive hostage1 && !alive hostage2 )
+	&& [ townArea, "east", "", "< 3"] call dzn_fnc_ccUnits 
+	&& [ townArea, "", "> 1"] call dzn_fnc_ccPlayers 	
+}, "Hostages are dead, but town is captured", 30 ];
+
+MissionCondition4 = [ "WIPED", { call fnc_isAllDead }, "All dead", 30 ];
