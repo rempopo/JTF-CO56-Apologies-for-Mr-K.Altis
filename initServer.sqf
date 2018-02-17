@@ -39,3 +39,13 @@ PlayerConnectedEH = addMissionEventHandler ["PlayerConnected", {
 	PlayerConnectedData pushBack _this;
 	publicVariable "PlayerConnectedData";
 }];
+
+
+[] spawn {
+	ReinforcementCalled = false;
+	publicVariable "ReinforcementCalled";
+	
+	waitUntil { sleep 10; [townArea, "", "> 3"] call dzn_fnc_ccPlayers };
+	ReinforcementCalled = true;
+	publicVariable "ReinforcementCalled"
+};

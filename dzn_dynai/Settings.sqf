@@ -1,15 +1,15 @@
 // Delay before and after zones initializations
-dzn_dynai_preInitTimeout			=	3;
-dzn_dynai_afterInitTimeout			=	3;
-dzn_dynai_initCondition			=	{ true };
+dzn_dynai_preInitTimeout				= 3;
+dzn_dynai_afterInitTimeout				= 3;
+dzn_dynai_initCondition				= { true };
 
 // Group Responses
 dzn_dynai_allowGroupResponse			= true;
 dzn_dynai_responseGroupsPerRequest		= 2;		// Number of groups that can reinforce each request
 dzn_dynai_forceGroupResponse			= false; 	// Include all mission units to participate in Group Responses
-dzn_dynai_responseDistance			= 800; 	// meters
-dzn_dynai_responseCheckTimer			= 20; 	// seconds
-dzn_dynai_makeZoneAlertOnRequest		= true;	// Change behavior of all groups once Reinforcement Request was sent
+dzn_dynai_responseDistance				= 800; 	// meters
+dzn_dynai_responseCheckTimer			= 20; 		// seconds
+dzn_dynai_makeZoneAlertOnRequest			= true;	// Change behavior of all groups once Reinforcement Request was sent
 
 
 // Behavior settings
@@ -20,9 +20,9 @@ dzn_dynai_allowVehicleHoldBehavior		= true;
 	if dzn_dynai_UseSimpleSkill == true:  dzn_dynai_overallSkillLevel is used do determine skill.
 	If false -- complex skills are used. More info about complex skills https://community.bistudio.com/wiki/AI_Sub-skills
 */
-dzn_dynai_UseSimpleSkill			=	false;
-dzn_dynai_overallSkillLevel			=	0.95;
-dzn_dynai_complexSkillLevel			=	[
+dzn_dynai_UseSimpleSkill				=	false;
+dzn_dynai_overallSkillLevel				=	0.95;
+dzn_dynai_complexSkillLevel				=	[
 	["general", 0.95]
 	,["aimingAccuracy", 0.8],["aimingShake", 0.8],["aimingSpeed", 0.9],["reloadSpeed", 0.7]
 	,["spotDistance", 1],["spotTime", 1],["commanding", 1]
@@ -40,8 +40,8 @@ dzn_dynai_restrictedBuildingClasses		= [
 
 // Caching Settings
 dzn_dynai_enableCaching				= true;
-dzn_dynai_cachingTimeout			= 20; // seconds
-dzn_dynai_cacheCheckTimer			= 15; // seconds
+dzn_dynai_cachingTimeout				= 20; // seconds
+dzn_dynai_cacheCheckTimer				= 15; // seconds
 
 dzn_dynai_cacheDistance				= 800; // meters
 
