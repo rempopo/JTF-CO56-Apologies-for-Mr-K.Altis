@@ -144,7 +144,7 @@ kit_ih_k_r = [
 
 
 // Gorka fireteam with PKM
-kit_ik_g_ftl = [
+kit_ih_g_ftl = [
 	["<EQUIPEMENT >>  ","rhs_uniform_gorka_r_y","rhs_6b23_6sh116_vog_od","B_FieldPack_oli",IH_HEAD,""],
 	["<PRIMARY WEAPON >>  ",AK74GP,["rhs_acc_dtk1983","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -155,7 +155,7 @@ kit_ik_g_ftl = [
 	["<BACKPACK ITEMS >> ",[["rhs_30Rnd_545x39_AK_green",2],["rhs_VG40MD_Red",4]]]
 ];
 
-kit_ik_g_mg = [
+kit_ih_g_mg = [
 	["<EQUIPEMENT >>  ","rhs_uniform_gorka_r_y","rhs_6b23_digi_engineer","B_Kitbag_rgr",IH_HEAD,""],
 	["<PRIMARY WEAPON >>  ","rhs_weap_pkm","rhs_100Rnd_762x54mmR",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -166,7 +166,7 @@ kit_ik_g_mg = [
 	["<BACKPACK ITEMS >> ",[["PRIMARY MAG",4]]]
 ];
 
-kit_ik_g_amg = [
+kit_ih_g_amg = [
 	["<EQUIPEMENT >>  ","rhs_uniform_gorka_r_y","rhs_6b23_6sh116_od","B_Kitbag_rgr",IH_HEAD,""],
 	["<PRIMARY WEAPON >>  ",AK74,["rhs_acc_dtk1983","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -177,7 +177,7 @@ kit_ik_g_amg = [
 	["<BACKPACK ITEMS >> ",[["rhs_100Rnd_762x54mmR",4]]]
 ];
 
-kit_ik_g_r = [
+kit_ih_g_r = [
 	["<EQUIPEMENT >>  ","rhs_uniform_gorka_r_y","rhs_6b23_6sh116_od","B_FieldPack_oli",IH_HEAD,""],
 	["<PRIMARY WEAPON >>  ",AK74,["rhs_acc_dtk1983","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -269,7 +269,7 @@ kit_saa_sh = [
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["rhs_mag_rgd5",2],["SmokeShell",1],["PRIMARY MAG",9]]],
-	["<BACKPACK ITEMS >> ",[["ACE_wirecutter",1],["ACE_Clacker",1],["rhs_weap_rshg2",1],["DemoCharge_Remote_Mag",1]]]
+	["<BACKPACK ITEMS >> ",[["ACE_wirecutter",1],["ACE_Clacker",1],["DemoCharge_Remote_Mag",1],["rhs_weap_rshg2",1]]]
 ];
 
 kit_saa_r = [
@@ -400,7 +400,7 @@ kit_ins_random = [
 	, "kit_ins_at"
 ];
 
-#define	INS_UNI	["U_BG_Guerrilla_6_1","U_I_G_resistanceLeader_F","U_BG_Guerilla1_1","U_BG_Guerilla2_2","U_BG_Guerilla2_1","U_BG_Guerilla2_3","U_BG_leader","U_I_C_Soldier_Bandit_3_F","U_I_C_Soldier_Para_5_F","U_I_C_Soldier_Para_4_F","U_I_C_Soldier_Para_1_F","U_C_Mechanic_01_F"]
+#define	INS_UNI	["U_BG_Guerrilla_6_1","U_BG_Guerrilla_6_1","U_BG_Guerrilla_6_1","U_I_G_resistanceLeader_F","U_BG_Guerilla1_1","U_BG_Guerilla2_1","U_BG_Guerilla2_3","U_BG_leader","U_I_C_Soldier_Bandit_3_F","U_I_C_Soldier_Para_5_F","U_I_C_Soldier_Para_4_F","U_I_C_Soldier_Para_1_F","U_C_Mechanic_01_F"]
 #define	INS_HEAD	["rhs_Booniehat_ocp","H_Booniehat_tan","H_Watchcap_blk","H_PASGT_basic_olive_F","H_MilCap_gry","H_Shemag_olive","H_ShemagOpen_tan","rhsgref_helmet_pasgt_3color_desert"]
 #define	INS_RFL	["rhs_weap_akmn","rhs_weap_akm","rhs_weap_akms","rhs_weap_ak74n","rhs_weap_ak74m_fullplum","rhs_weap_aks74","rhs_weap_aks74n_2","rhs_weap_ak74n_2","rhs_weap_ak74","rhs_weap_ak74_2","rhs_weap_m92","rhs_weap_m16a4_carryhandle","rhs_weap_m4a1_carryhandle","rhs_weap_pm63","rhs_weap_savz58p","rhs_weap_savz58v","rhs_weap_m70b1","rhs_weap_m70ab2"],["rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_762x39mm","rhs_mag_30Rnd_556x45_M855_Stanag","rhs_mag_30Rnd_556x45_M855_Stanag","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm"]
 #define	INS_GP		["rhs_weap_aks74n_gp25","rhs_weap_akms_gp25","rhs_weap_akmn_gp25","rhs_weap_ak74n_2_gp25","rhs_weap_ak74n_gp25"],["rhs_30Rnd_545x39_AK","rhs_VOG25P","rhs_VOG25P","rhs_VOG25P","rhs_VOG25P"]

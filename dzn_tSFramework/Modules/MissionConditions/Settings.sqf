@@ -53,12 +53,12 @@ MissionCondition1 = [ "WIN", {
 	&& alive hostage2 && hostage2 inArea hostageRescueArea 
 }, "2 hostages evacuated" ];
 
-MissionCondition2 = [ "WIN", {
+MissionCondition2 = [ "WIN2", {
 	( alive hostage1 && hostage1 inArea hostageRescueArea && !alive hostage2 )
 	|| ( alive hostage2 && hostage2 inArea hostageRescueArea && !alive hostage1 )
 }, "1 evacuated, 1 dead" ];
 
-MissionCondition3 = [ "WIN2", {
+MissionCondition3 = [ "WIN3", {
 	( !alive hostage1 && !alive hostage2 )
 	&& [ townArea, "east", "", "< 3"] call dzn_fnc_ccUnits 
 	&& [ townArea, "", "> 1"] call dzn_fnc_ccPlayers 	

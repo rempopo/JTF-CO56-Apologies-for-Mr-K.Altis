@@ -17,15 +17,15 @@ A "Hunter 1'1 Командир отделения"		TO "kit_ih_sl" KIT
 , A "Санинструктор"				TO "kit_ih_medic" KIT
 , A "Альфа - Лидер команды"			TO "kit_ih_k_ftl" KIT
 , A "Браво - Лидер команды"			TO "kit_ih_k_ftl" KIT
-, A "Чарли - Лидер команды"			TO "kit_ik_g_ftl" KIT
+, A "Чарли - Лидер команды"			TO "kit_ih_g_ftl" KIT
 
 , A "Пулеметчик (легк.)"			TO "kit_ih_k_ar" KIT
 , A "Помощник легк. пулеметчика"		TO "kit_ih_k_aar" KIT
 , A "Стрелок"					TO "kit_ih_k_r" KIT
 
-, A "Пулеметчик"				TO "kit_ik_g_mg" KIT
-, A "Помощник пулеметчика"			TO "kit_ik_g_amg" KIT
-, A "Стрелок (подносчик)"			TO "kit_ik_g_r" KIT
+, A "Пулеметчик"				TO "kit_ih_g_mg" KIT
+, A "Помощник пулеметчика"			TO "kit_ih_g_amg" KIT
+, A "Стрелок (подносчик)"			TO "kit_ih_g_r" KIT
 
 /*
 	Syrian Arab Army - main squads
